@@ -13,7 +13,7 @@ module.exports = {
     extensions: [".js", ".jsx", ".ts", ".tsx"],
   },
   output: {
-    path: path.resolve(__dirname, "../bulid"),
+    path: path.resolve(__dirname, "../build"),
     filename: "static/js/[name].[contenthash:8].js",
     clean: true,
   },
